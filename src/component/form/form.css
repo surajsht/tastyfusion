@@ -1,0 +1,21 @@
+.search-form {
+  margin-top: 4rem;
+}
+
+.search-form form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.search-form input {
+  height: 4rem;
+  width: 48rem;
+  padding: .8rem;
+}
+
+.search-form button {
+  height: 4rem;
+  width: 16rem;
+}
