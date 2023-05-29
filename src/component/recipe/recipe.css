@@ -17,6 +17,11 @@
   margin: .4rem 0;
 }
 
+.recipe-item-title {
+  font-size: 2.2rem;
+  line-height: calc(2.2rem * 1.2);
+}
+
 .recipe-not-found-title {
   margin-top: 6rem;
   text-align: center;
