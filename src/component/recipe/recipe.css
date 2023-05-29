@@ -1,0 +1,23 @@
+.recipe-container {
+  margin: 6rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem 1.6rem;
+}
+
+.recipe-item img {
+  height: 32rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.recipe-item-category {
+  line-height: calc(1.6rem * 1.2);
+  display: block;
+  margin: .4rem 0;
+}
+
+.recipe-not-found-title {
+  margin-top: 6rem;
+  text-align: center;
+}
