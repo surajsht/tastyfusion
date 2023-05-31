@@ -1,3 +1,4 @@
+import logo from '../../assets/logo.png'
 import "./navbar.css";
 
 const Navbar = () => {
@@ -5,7 +6,7 @@ const Navbar = () => {
     <nav>
       <div className="wrapper">
         <div className="logo">
-          <img src="./logo.png" alt="" />
+          <img src={logo} alt="" />
         </div>
       </div>
     </nav>
