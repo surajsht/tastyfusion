@@ -10,10 +10,38 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }

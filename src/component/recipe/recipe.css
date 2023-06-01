@@ -5,6 +5,18 @@
   gap: 2.4rem 1.6rem;
 }
 
+@media (max-width: 991px) {
+  .recipe-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .recipe-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .recipe-item img {
   height: 32rem;
   width: 100%;
@@ -14,12 +26,21 @@
 .recipe-item-category {
   line-height: calc(1.6rem * 1.2);
   display: block;
-  margin: .4rem 0;
+  margin: 0.4rem 0;
 }
 
 .recipe-item-title {
   font-size: 2.2rem;
   line-height: calc(2.2rem * 1.2);
+}
+
+.recipe-item-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.recipe-item-title a:where(:hover, :focus) {
+  color: #d54215;
 }
 
 .recipe-not-found-title {
