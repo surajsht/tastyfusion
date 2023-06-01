@@ -16,6 +16,10 @@
   object-fit: cover;
 }
 
+.recipe-content {
+  margin-bottom: 2.4rem;
+}
+
 .recipe-content > h2 {
   font-size: 5.1rem;
   line-height: calc(5.1rem * 1.2);
@@ -60,4 +64,32 @@
 
 .ingredient-lists {
   width: calc(50% - 1.6rem);
+}
+
+.single-btn-group {
+  margin-top: 2.4rem;
+}
+
+.single-btn-group button {
+  border: none;
+  outline: none;
+  padding: 1.4rem 2.4rem;
+  background-color: #B2EDB2;
+  vertical-align: middle;
+}
+
+.single-btn-group button:where(:hover, :focus) {
+  background-color: rgb(150, 247, 150);
+}
+
+.single-btn-group button:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.single-btn-group button a {
+  font-size: 1.6rem;
+  line-height: calc(1.6rem * 1.2);
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
 }

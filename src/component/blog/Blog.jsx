@@ -91,11 +91,11 @@ const Blog = () => {
               <p> {strInstructions} </p>
 
               <div className="single-btn-group">
-                <button className="back-to-home">
-                  <Link to="/"> Back to home </Link>
-                </button>
                 <button>
                   <a href={strYoutube}> watch video </a>
+                </button>
+                <button className="back-to-home">
+                  <Link to="/"> Back to home </Link>
                 </button>
               </div>
             </div>
